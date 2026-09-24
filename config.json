@@ -1,0 +1,12 @@
+{
+  "model_name": "textattack/bert-base-uncased-SST-2",
+  "input_path": "data/sentences.csv",
+  "output_root": "outputs",
+  "device": "auto",
+  "max_length": 128,
+  "max_evals": 500,
+  "batch_size": 32,
+  "faithfulness_fractions": [0.1, 0.2, 0.3, 0.5],
+  "collapse_mask_token": false,
+  "local_files_only": false
+}

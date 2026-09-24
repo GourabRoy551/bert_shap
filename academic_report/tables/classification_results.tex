@@ -1,0 +1,23 @@
+\begin{table}[htbp]
+\centering
+\caption{Sentence-level classification and SHAP additivity results.}
+\label{tab:classification}
+\small
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lccccrrrc}
+\toprule
+ID & Gold & Pred. & Correct & $p(\hat{y}\mid x)$ & $f(x)$ & $\phi_0$ & $\sum_i\phi_i$ & $\epsilon_{\mathrm{add}}$ \\
+\midrule
+S1 & POS & POS & 1 & 0.999738 & 8.2464 & 3.5955 & 4.6509 & 0.0e+00 \\
+S2 & NEG & NEG & 1 & 0.999214 & -7.1473 & 2.6621 & -9.8094 & 0.0e+00 \\
+S3 & POS & POS & 1 & 0.999055 & 6.9631 & 3.5955 & 3.3675 & 0.0e+00 \\
+S4 & NEG & NEG & 1 & 0.999311 & -7.2796 & 2.6621 & -9.9416 & 0.0e+00 \\
+S5 & POS & POS & 1 & 0.999716 & 8.1665 & 3.5995 & 4.5670 & 0.0e+00 \\
+S6 & POS & POS & 1 & 0.999731 & 8.2199 & 2.6621 & 5.5579 & 0.0e+00 \\
+S7 & NEG & NEG & 1 & 0.999366 & -7.3636 & 3.0872 & -10.4508 & 0.0e+00 \\
+S8 & POS & POS & 1 & 0.999030 & 6.9375 & 3.5955 & 3.3420 & 0.0e+00 \\
+S9 & NEG & NEG & 1 & 0.999217 & -7.1515 & 3.5955 & -10.7470 & 0.0e+00 \\
+S10 & POS & POS & 1 & 0.999771 & 8.3806 & 3.5995 & 4.7811 & 0.0e+00 \\
+\bottomrule
+\end{tabular}}
+\end{table}

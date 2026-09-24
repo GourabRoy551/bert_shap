@@ -1,0 +1,15 @@
+.venv/
+.packages/
+__pycache__/
+*.pyc
+outputs/*
+!outputs/values/
+!outputs/plots/
+!outputs/evaluation/
+outputs/values/*
+outputs/plots/*
+outputs/evaluation/*
+!outputs/values/.gitkeep
+!outputs/plots/.gitkeep
+!outputs/evaluation/.gitkeep
+
