@@ -1,0 +1,11 @@
+{
+  "dataset": "sentences_20_curated.csv",
+  "source": "../bert_shap/dual_class_bert/data/sentences_20_curated.csv",
+  "sha256": "e33da56fa4773c7b49deabe8778d96e10930fcdc51b099121784ee673feabe2a",
+  "source_sha256": "01f781925857f4bb8990bfdb59043725d855c229f880e5561339f43730e6de14",
+  "line_ending_note": "Parsed records are identical; the independent copy uses LF instead of the source CSV's CRLF.",
+  "rows": 20,
+  "negative_rows": 10,
+  "positive_rows": 10,
+  "purpose": "Identical qualitative input for BERT and CLIP Text Encoder comparison."
+}

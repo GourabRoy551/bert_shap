@@ -1,0 +1,16 @@
+{
+  "NEG": [
+    "This movie is terrible.",
+    "I hated this movie.",
+    "This is a bad film.",
+    "The film was disappointing.",
+    "This is a negative movie review."
+  ],
+  "POS": [
+    "This movie is excellent.",
+    "I loved this movie.",
+    "This is a good film.",
+    "The film was enjoyable.",
+    "This is a positive movie review."
+  ]
+}

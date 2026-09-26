@@ -1,0 +1,18 @@
+{
+  "model_name": "openai/clip-vit-base-patch32",
+  "input_path": "data/sentences_20_curated.csv",
+  "dataset_manifest_path": "data/dataset_manifest.json",
+  "prompts_path": "prompts.json",
+  "bert_values_path": "../bert_shap/dual_class_bert/outputs/values/bert_dual_20_curated",
+  "output_root": "outputs",
+  "device": "auto",
+  "max_length": 77,
+  "max_evals": 500,
+  "batch_size": 32,
+  "mask_token": "",
+  "collapse_mask_token": true,
+  "local_files_only": true,
+  "faithfulness_top_k": [1, 2, 3],
+  "faithfulness_random_repeats": 10,
+  "seed": 42
+}
