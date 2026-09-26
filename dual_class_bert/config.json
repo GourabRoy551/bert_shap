@@ -1,0 +1,16 @@
+{
+  "model_name": "textattack/bert-base-uncased-SST-2",
+  "existing_sentences_path": "../data/sentences.csv",
+  "sst2_dev_path": "D:/Research/TRDP_Study Note/TRDP1/trdp/sst2_quantitative_analysis/data/SST-2/dev.tsv",
+  "curated_additions_path": "data/curated_sst2_additions.csv",
+  "input_path": "data/sentences_20_curated.csv",
+  "existing_margin_values_path": "../outputs/values/modular_s1_s10/token_shap_values.csv",
+  "output_root": "outputs",
+  "device": "auto",
+  "max_length": 128,
+  "max_evals": 500,
+  "batch_size": 32,
+  "total_sentences": 20,
+  "collapse_mask_token": false,
+  "local_files_only": true
+}

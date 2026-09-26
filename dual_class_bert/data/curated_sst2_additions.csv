@@ -1,0 +1,11 @@
+sentence_id,text,gold_label,source,source_row_id
+D01,"It's just disappointingly superficial—a movie that has all the elements necessary to be a fascinating, involving character study, but never does more than scratch the surface.",NEG,sst2_dev_curated,59
+D02,"It provides the grand, intelligent entertainment of a superior cast playing smart people amid a compelling plot.",POS,sst2_dev_curated,129
+D03,It's a bad thing when a movie has about as much substance as its end-credits blooper reel.,NEG,sst2_dev_curated,181
+D04,"First-time writer-director Serry shows a remarkable gift for storytelling with this moving, effective little film.",POS,sst2_dev_curated,603
+D05,"The entire movie is about a boring, sad man being boring and sad.",NEG,sst2_dev_curated,212
+D06,"It proves quite compelling as an intense, brooding character study.",POS,sst2_dev_curated,327
+D07,"The film's hackneyed message is not helped by the thin characterizations, nonexistent plot, and pretentious visual style.",NEG,sst2_dev_curated,429
+D08,"The film is powerful, accessible, and funny.",POS,sst2_dev_curated,504
+D09,I got a headache watching this meaningless downer.,NEG,sst2_dev_curated,591
+D10,I had to look away; this was god-awful.,NEG,sst2_dev_curated,29
